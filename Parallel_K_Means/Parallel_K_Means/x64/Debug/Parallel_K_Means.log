@@ -1,0 +1,7 @@
+﻿  K_Means.cpp
+  Parallel_K_Means.vcxproj -> C:\Users\idan\Desktop\ran\Parallel_K_Means\x64\Debug\Parallel_K_Means.exe
+  Parallel_K_Means.vcxproj -> C:\Users\idan\Desktop\ran\Parallel_K_Means\x64\Debug\Parallel_K_Means.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\idan\Desktop\ran\Parallel_K_Means\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
