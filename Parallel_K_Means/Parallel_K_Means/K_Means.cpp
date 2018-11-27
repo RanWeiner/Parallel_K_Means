@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
 	//change the INPUT & OUTPUT files path 
-	const char* input_file_path = "D:\\INPUT_FILE.txt";
-	const char* output_file_path = "D:\\OUTPUT_FILE.txt";
+	const char* input_file_path = "D:\\CHANGE\\PATH\\TO\\INPUT_FILE.txt";
+	const char* output_file_path = "D:\\CHANGE\\PATH\\TO\\OUTPUT_FILE.txt";
 
 	int rank, numprocs;
 	double start_time, end_time;
@@ -81,7 +81,7 @@ void parallel_k_means(int rank, int numprocs, const char* input_file_path, const
 	init_cuda(&dev_my_points, my_num_of_points, &dev_clusters, input.K, &dev_point_moved_flag);
 
 	//set number of iterations for the k means algorithm
-	iterations = (input.T * 1.0) / input.dT;
+	iterations = input.T  / input.dT;
 
 	for (n = 0; n <= iterations && !quality_achived; n++)
 	{
